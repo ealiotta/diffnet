@@ -2,9 +2,9 @@
 
 simple implementation of the DiffNet method described in:
 
-Aliotta E, Nourzadeh H, Sanders J, Muller D, Ennis DB. 
-Highly Accelerated, Model-Free Diffusion Tensor MRI Reconstruction Using Neural Networks.
-Med Phys. 2019 Jan 24; https://doi.org/10.1002/mp.13400
+	Aliotta E, Nourzadeh H, Sanders J, Muller D, Ennis DB. 
+	Highly Accelerated, Model-Free Diffusion Tensor MRI Reconstruction Using Neural Networks.
+	Med Phys. 2019 Jan 24; https://doi.org/10.1002/mp.13400
 
 This code reads in a set of dicom files located in <ImageLoc>. These dicom files should contain
 DWI with b=1000s/mm2 and 3, 6, or 20 diffusion encoding directions plus one b=0 reference image. 
@@ -43,9 +43,9 @@ Requirements:	python with the following libraries
 Example dicom files are provided with 3, 6, and 20 diffusion encoding directions. After successful
 completion, you should see one slice of the reconstructed dFA map in a dialog box.
 
-Eric Aliotta, PhD
-University of Virginia, Department of Radiation Oncology
-04.04.2019
+	Eric Aliotta, PhD
+	University of Virginia, Department of Radiation Oncology
+	04.08.2019
 
-eric.aliotta@virginia.edu
+	eric.aliotta@virginia.edu
 
