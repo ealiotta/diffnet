@@ -1,5 +1,5 @@
-applyDiffNet.py 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# applyDiffNet.py 
+
 simple implementation of the DiffNet method described in:
 
 Aliotta E, Nourzadeh H, Sanders J, Muller D, Ennis DB. 
@@ -32,7 +32,9 @@ Requirements:	python with the following libraries
                   matplotlib
                   keras (https://keras.io/)
 
-Usage: python <pathToCode>\applyDiffNet.py <NeuralNetLoc> <ImageLoc> <OutLoc>
+## Usage
+
+	python <pathToCode>\applyDiffNet.py <NeuralNetLoc> <ImageLoc> <OutLoc>
 
 	where: 	NeuralNetLoc: 	path to folder containing .h5 keras neural network files (provided)
 		ImageLoc: 	path to folder containing dicom images
@@ -41,10 +43,9 @@ Usage: python <pathToCode>\applyDiffNet.py <NeuralNetLoc> <ImageLoc> <OutLoc>
 Example dicom files are provided with 3, 6, and 20 diffusion encoding directions. After successful
 completion, you should see one slice of the reconstructed dFA map in a dialog box.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Eric Aliotta, PhD
 University of Virginia, Department of Radiation Oncology
 04.04.2019
 
 eric.aliotta@virginia.edu
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
