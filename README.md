@@ -42,11 +42,8 @@ Requirements:	python with the following libraries
 Example dicom files are provided with 3, 6, and 20 diffusion encoding directions. After successful
 completion, you should see one slice of the reconstructed dFA map in a dialog box.
 
-Eric Aliotta, PhD
-
-University of Virginia, Department of Radiation Oncology
-
-04.08.2019
-
+Eric Aliotta, PhD <br/>
+University of Virginia, Department of Radiation Oncology <br/>
+04.08.2019 <br/>
 eric.aliotta@virginia.edu
 
