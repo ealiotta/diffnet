@@ -15,9 +15,8 @@ and are provided in the Med Phys paper above. Initial testing show that results 
 of specific input directions, but this has not been formally evaluated.
 
 Data can either be formatted as:
-	mosaic view   (all slices are held in a single image and each image		[Nx,Ny,Ndir]
-		       represents an independent diffusion encoding direction)		
-	standard view (each slice contains one slice and diffusion encoding direction)	[Nx,Ny,Nslice,Ndir]
+* mosaic view   (all slices are held in a single image and each image represents an independent diffusion encoding direction [Nx,Ny,Ndir]		       		
+* standard view (each slice contains one slice and diffusion encoding direction) [Nx,Ny,Nslice,Ndir]
 
 Note that for mosaic view, dFA maps are output in mosaic view as well.
 
@@ -26,11 +25,11 @@ Note that for mosaic view, dFA maps are output in mosaic view as well.
 Code outputs dFA maps (i.e. FA estimates) in matlab (.mat) and numpy (.npy) formats.
 
 Requirements:	python with the following libraries
-                  numpy
-                  scipy
-                  pydicom
-                  matplotlib
-                  keras (https://keras.io/)
+* numpy
+* scipy
+* pydicom
+* matplotlib
+* keras (https://keras.io/)
 
 ## Usage
 
@@ -44,7 +43,9 @@ Example dicom files are provided with 3, 6, and 20 diffusion encoding directions
 completion, you should see one slice of the reconstructed dFA map in a dialog box.
 
 Eric Aliotta, PhD
+
 University of Virginia, Department of Radiation Oncology
+
 04.08.2019
 
 eric.aliotta@virginia.edu
