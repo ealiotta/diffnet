@@ -1,4 +1,4 @@
-# applyDiffNet.py 
+## applyDiffNet.py 
 
 simple implementation of the DiffNet method described in:
 
@@ -43,9 +43,9 @@ Requirements:	python with the following libraries
 Example dicom files are provided with 3, 6, and 20 diffusion encoding directions. After successful
 completion, you should see one slice of the reconstructed dFA map in a dialog box.
 
-	Eric Aliotta, PhD
-	University of Virginia, Department of Radiation Oncology
-	04.08.2019
+Eric Aliotta, PhD
+University of Virginia, Department of Radiation Oncology
+04.08.2019
 
-	eric.aliotta@virginia.edu
+eric.aliotta@virginia.edu
 
