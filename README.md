@@ -37,6 +37,9 @@ Usage: python <pathToCode>\applyDiffNet.py <NeuralNetLoc> <ImageLoc> <OutLoc>
 	where: 	NeuralNetLoc: 	path to folder containing .h5 keras neural network files (provided)
 		ImageLoc: 	path to folder containing dicom images
 		OutLoc:		path for desired output
+		
+Example dicom files are provided with 3, 6, and 20 diffusion encoding directions. After successful
+completion, you should see one slice of the reconstructed dFA map in a dialog box.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Eric Aliotta, PhD
